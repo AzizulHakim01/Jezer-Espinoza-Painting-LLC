@@ -4,7 +4,7 @@ const Hero = () => {
       <section className="bg-[url('/bg.jpg')] h-[calc(100vh-200px)] w-full bg-no-repeat bg-cover bg-center">
         <div className="bg-black w-full h-[calc(100vh-200px)] bg-opacity-45 flex justify-center items-center">
           <p className="text-7xl font-bold text-white shadow-md text-center flex flex-col gap-4">
-            <span>EXTERIOR / INTERIOR HOUSE</span>
+            <span>EXTERIOR / INTERIOR</span>
             <span>PAINTING / CARPENTRY SERVICES</span>
           </p>
         </div>

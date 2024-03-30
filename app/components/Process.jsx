@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 const Process = () => {
     return (
-        <div className='w-full py-4 relative h-full'>
+        <div className='w-full py-4 relative h-full bg-white'>
             {/* Background compo.. */}
                 <div className="-z-1 w-96 h-96 rounded-full bg-gradient-to-r from-[#c8d9f5] to-[#e4e8f1] opacity-45 absolute -top-48 left-40" />
                 <div className="-z-1 w-56 h-56 rounded-full bg-gradient-to-r from-[#c8d9f5] to-[#e4e8f1] opacity-65 absolute top-24 right-64" />
@@ -17,7 +17,7 @@ const Process = () => {
                     </div>
                     <div className="w-2/4 flex justify-center relative">
                     {/* Image */}
-                    <h1 className="absolute text-5xl bottom-60 font-bold ">Jezer Espinoza Painting LLC</h1>
+                    <h1 className="absolute text-5xl bottom-60 bg-gradient-to-r from-amber-300 to-red-700 bg-clip-text text-transparent font-bold">Jezer Espinoza Painting LLC</h1>
                     <Image src="/house.png" alt="cycle" width={650} height={200} className="z-10"/>
                     </div>
                     <div className="w-1/4 flex flex-col gap-16">

@@ -3,6 +3,8 @@ import "./globals.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Offer from "./components/Offer";
+import CustomHead from "./components/CustomHead";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,12 +16,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+        <link rel="icon" href="/logo.png" sizes="any" />
       <body className={inter.className}>
         <div className="">
           <Header/>
           <Offer/>
           {/* <Navbar/> */}
           <main>{children}</main>
+          <Footer/>
         </div>
       </body>
     </html>

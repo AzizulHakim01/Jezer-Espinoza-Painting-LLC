@@ -2,10 +2,10 @@ import { AiOutlineFormatPainter } from "react-icons/ai";
 
 const Trust = () => {
   return (
-    <div className="">
+    <div className="bg-white">
       <div className="max-w-screen-xl flex justify-center items-center h-[50vh] flex-col mx-auto gap-6">
-        <h1 className="text-5xl">Trust us, We Keep Our Words</h1>
-        <p className="text-2xl text-justify flex justify-center">
+        <h1 className="text-5xl text-gray-700 font-bold">Trust us, We Keep Our Words</h1>
+        <p className="text-2xl text-gray-700 font-medium z-10 text-justify flex justify-center">
           Jezer Espinoza Painting LLC is a leading commercial painting company,
           specializing in high-quality painting services tailored to businesses.
           With 15 years of experience, we serviced commercial and residential
