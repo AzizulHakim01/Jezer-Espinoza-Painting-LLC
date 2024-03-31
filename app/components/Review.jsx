@@ -9,8 +9,8 @@ const Review = () => {
         }}
       />
       <div className="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5" >
-        <div className="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800" id="reviews">
-          <div className="w-full max-w-6xl mx-auto" >
+        <div className="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800" >
+          <div className="w-full max-w-6xl mx-auto" id="reviews">
             <div className="text-center max-w-xl mx-auto" >
               <h1 className="text-6xl md:text-7xl font-bold mb-5 text-gray-600">
                 What people <br />
@@ -190,22 +190,6 @@ const Review = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      {/* BUY ME A BEER AND HELP SUPPORT OPEN-SOURCE RESOURCES */}
-      <div className="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
-        <div>
-          <a
-            title="Buy me a beer"
-            href="https://www.buymeacoffee.com/scottwindon"
-            target="_blank"
-            className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
-          >
-            <img
-              className="object-cover object-center w-full h-full rounded-full"
-              src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg"
-            />
-          </a>
         </div>
       </div>
     </div>

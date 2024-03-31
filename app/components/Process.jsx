@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 const Process = () => {
     return (
-        <div className='w-full py-4 relative h-full bg-white'>
+        <div className='w-full py-4 relative h-full bg-white hidden xl:block'>
             {/* Background compo.. */}
                 <div className="-z-1 w-96 h-96 rounded-full bg-gradient-to-r from-[#c8d9f5] to-[#e4e8f1] opacity-45 absolute -top-48 left-40" />
                 <div className="-z-1 w-56 h-56 rounded-full bg-gradient-to-r from-[#c8d9f5] to-[#e4e8f1] opacity-65 absolute top-24 right-64" />
