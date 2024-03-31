@@ -9,6 +9,7 @@ const Navbar = () => {
                 <li><Link href="/residential-painting">Commercial Painting</Link></li>
                 <li><Link href="/#reviews">Reviews</Link></li>
                 <li><Link href="/#about">About Us</Link></li>
+                <li><Link href="/contact-us">Contact Us</Link></li>
             </ul>
         </div>
     </div>
