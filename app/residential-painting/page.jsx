@@ -1,6 +1,10 @@
+import Hero from "../components/Hero"
+
 const ResidentialPainting = () => {
     return (
-        <div className=''>Page</div>
+        <div className=''>
+            <Hero title={"Residential Painting"} subtitle="We Design A Home" image="/residential.jpg"/>
+        </div>
     )
 }
 

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react';
+import {message} from 'antd'
 
 const EmailForm = () => {
   const [formData, setFormData] = useState({
@@ -27,14 +28,14 @@ const EmailForm = () => {
       });
 
       if (response.ok) {
-        alert('Email sent successfully!');
+        message.success('Email sent successfully!');
         setFormData({ name: '', phone: '', email: '', message: '' });
       } else {
-        alert('Error sending email. Please try again later.');
+        message.error('Error sending email. Please try again later.');
       }
     } catch (error) {
       console.error('Error sending email:', error);
-      alert('Error sending email. Please try again later.');
+      message.error('Error sending email. Please try again later.');
     }
   };
 
@@ -50,7 +51,7 @@ const EmailForm = () => {
               <input 
                 className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
                 type="text" 
-                placeholder="First Name*" 
+                placeholder="Your Full Name*" 
                 name="name" 
                 value={formData.name} 
                 onChange={handleChange} 
@@ -79,8 +80,9 @@ const EmailForm = () => {
               <textarea 
                 placeholder="Message*" 
                 className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
-                value={formData.message} 
-                onChange={handleChange}
+                name="message"
+                value={formData.message}
+                onChange={handleChange} // Corrected onChange handler for textarea
                 required
               ></textarea>
             </div>

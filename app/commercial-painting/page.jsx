@@ -1,6 +1,10 @@
+import Hero from "../components/Hero"
+
 const CommercialPainting = () => {
     return (
-        <div className=''>CommercialPainting</div>
+        <div className=''>
+            <Hero title={"Commercial Painting"} subtitle="We Design Dreams" image="/painting-red.jpg"/>
+        </div>
     )
 }
 
