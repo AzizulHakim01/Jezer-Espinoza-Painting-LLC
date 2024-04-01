@@ -77,11 +77,13 @@ export default async function handler(req, res) {
     `;
 
     const mailOptions = {
-      from: "bdoneoversease01@gmail.com",
-      to: "azizulhakimgps@gmail.com",
-      subject: `New Message from ${name}`,
+      from: "azizulhakimgps@gmail.com",
+      to: "quiles300@gmail.com",
+      Cc: "", // You can add CC recipients here if needed
+      subject: name ? `New Message from ${name}` : "New Message",
       html: htmlData,
     };
+    
 
     try {
       await transporter.sendMail(mailOptions);

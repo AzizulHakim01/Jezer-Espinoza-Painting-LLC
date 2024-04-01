@@ -5,6 +5,15 @@ import Image from "next/image";
 import Offer from "./Offer";
 
 const Header = () => {
+  const downloadCapabilityStatement = () => {
+    const link = document.createElement('a');
+    link.href = '/file/capability-statement.pdf'; // Path to the PDF file
+    link.download = 'capability-statement.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -29,6 +38,7 @@ const Header = () => {
             <button
               type="button"
               className="text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-4 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              onClick={downloadCapabilityStatement}
             >
               Get Capability Statement
             </button>

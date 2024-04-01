@@ -8,7 +8,7 @@ const ProjectManager = () => {
           <div className="grid xl:grid-cols-2 items-center text-gray-700">
             <section className="flex justify-center items-center">
               <Image
-                src={"/image.png"}
+                src={"/project-manager-3.png"}
                 alt="founder"
                 width={600}
                 height={100}

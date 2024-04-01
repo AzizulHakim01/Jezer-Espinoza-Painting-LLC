@@ -20,7 +20,7 @@ const About = () => {
                 serving residential and commercial clients since 2009. With
                 years of experience in the industry, we bring expertise and
                 dedication to every project we undertake. Our skilled team
-                specializes in providing high-quality painting services,
+                specializes in providing high-quality painting and carpentry services,
                 transforming spaces with precision and attention to detail.
                 Whether it's revitalizing the interior of a home or enhancing
                 the appearance of a commercial property, we are committed to

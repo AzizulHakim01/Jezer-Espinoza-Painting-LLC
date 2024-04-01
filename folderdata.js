@@ -49,7 +49,7 @@ const data = [
 // Function to create folders and page.jsx files
 const createFoldersAndFiles = (data) => {
     data.forEach(item => {
-        const folderPath = path.join(__dirname, 'app', 'commercial-painting', item.link.substring(1)); // Remove leading '/'
+        const folderPath = path.join(__dirname, 'app', 'residential-painting', item.link.substring(1)); // Remove leading '/'
         fs.mkdirSync(folderPath, { recursive: true }); // Create folder recursively
 
         // Create page.jsx file inside the folder
