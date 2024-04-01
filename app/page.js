@@ -14,7 +14,7 @@ export default function Home() {
       <Hero title="EXTERIOR / INTERIOR" subtitle="PAINTING / CARPENTRY SERVICES" image="/bg.jpg"/>
       <Trust/>
       <Process/>
-      <Services/>
+      <Services title={"Professional Painting Services"} description={"we transform homes and businesses by providing expert services with a proven process, giving you more time to enjoy moments that matter in the spaces you love"}/>
       <About/>
       <ServiceWeOffer/>
       <Review/>
